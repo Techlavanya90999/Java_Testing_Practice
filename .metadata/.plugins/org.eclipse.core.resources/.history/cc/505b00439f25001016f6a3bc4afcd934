@@ -1,0 +1,36 @@
+package FeatureFile;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import junit.framework.Assert;
+
+public class Demo1 {
+static WebDriver driver;
+		@Given("User should be on login page")
+		public void user_should_be_on_login_page() {
+			WebDriver driver = new ChromeDriver();
+			driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		}
+
+		@When("user enter valid credentials")
+		public void user_enter_valid_credentials() {
+		    driver.findElement(By.name("username")).sendKeys("Admin");
+		    driver.findElement(By.name("password")).sendKeys("admin123");
+		    driver.findElement(By.xpath("//button[text()='Login]")).click();
+
+		}
+
+		@Then("user validate home page Title")
+		public void user_validate_home_page_title() {
+		    String actualTitle = driver.getTitle();
+		    Assert.assertEquals(actualTitle, "OrangeHRM");
+		}
+
+	}
+
+}

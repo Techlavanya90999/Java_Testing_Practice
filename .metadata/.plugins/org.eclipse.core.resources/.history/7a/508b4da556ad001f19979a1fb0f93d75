@@ -1,0 +1,23 @@
+package PracticeTutorial;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Sclass1 {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+                                                //open chrome browse
+		WebDriver driver = new ChromeDriver();
+		
+		                                            //open url
+		driver.get("www.facebook.com");
+		
+		Thread.sleep(3000);
+		
+		                                   //navigate from one url to another
+		driver.get("www.google.com");
+		
+	}
+
+}

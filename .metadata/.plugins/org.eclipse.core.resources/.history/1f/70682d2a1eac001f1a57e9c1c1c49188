@@ -1,0 +1,49 @@
+package Tutorial2;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class javaScript1 {
+
+	public static void main(String[] args) {
+		//open browser
+		WebDriver driver = new ChromeDriver();
+
+		//open url
+		driver.get("https://www.facebook.com/r.php");
+
+		//maximize the browser
+		driver.manage().window().maximize();
+
+		//convert Webdriver object into javascrpit executor
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		
+		//use executeScript()method by passing window.location='https://www.facebook.com/'
+		js.executeScript("window.location='https://www.facebook.com/r.php';");
+
+		//find firstname text box
+		WebElement firstname = driver.findElement(By.name("firstname"));
+	
+		//enter value in firstname textbox using javascript executor
+		js.executeScript("arguments[0].value='Lavanya';",firstname);
+
+		//find last name textbox
+		WebElement lastname = driver.findElement(By.name("lastname"));
+
+		//enter value in lastname textbox
+		js.executeScript("arguments[0].value='D';",lastname);
+
+		//find gender female button
+		WebElement female = driver.findElement(By.id("gender-radio-2"));
+
+		//find signup button
+		WebElement signup = driver.findElement(By.name("websubmit"));
+
+		//click on signup button using javascript executor
+		js.executeScript("argument[0].click();",signup);
+	}
+
+}

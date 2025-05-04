@@ -1,0 +1,52 @@
+package Tutorial2;
+
+import java.util.ArrayList;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class class16 {
+
+	public static void main(String[] args) {
+//open Chrome Driver
+		WebDriver driver = new ChromeDriver();
+		
+		//open url
+		driver.get("https://prafpawar11.github.io/multiplewindows.html");
+		
+		//maximize the url
+		driver.manage().window().maximize();
+		
+		//capture current window id no. //window id it return combination of character and integer
+		String ParentId = driver.getWindowHandle();
+		System.out.println(ParentId);
+		
+		//find and enter value in first name text box
+		WebElement firstname = driver.findElement(By.name("fname"));
+		firstname.sendKeys("Ram");
+		
+		//find and click on Soucedemo link
+		WebElement saucedemolink = driver.findElement(By.xpath("//a[text()='SauceDemo Link']"));
+		saucedemolink.click();
+		
+		//capture all window id no.
+		Set<String> setWindowId = driver.getWindowHandles();
+		
+		//create object of ArrayList<String> and convert Set<String> into
+		// ArrayList<String> by passing Set<String> object name in ArrayList<String>
+		// constructor
+		ArrayList<String> arrayListWindowId = new ArrayList<String>(setWindowId);
+		
+		//capture saucewindoe id no.
+		String sauceWindowID = arrayListWindowId.get(1);
+		
+		//switch to focus to saucewindoe application
+		driver.switchTo().window(sauceWindowID);
+		
+		//
+	}
+
+}

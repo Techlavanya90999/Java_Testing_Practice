@@ -1,0 +1,18 @@
+package Practice;
+
+public class Demo3 {
+
+public static void main(String[] args) {
+for (int a = 50; a >= 40 ; a--) {
+	if(a == 47 || a == 43)
+{
+		continue;
+}
+	System.out.println("a");
+}
+	}
+
+
+
+}
+

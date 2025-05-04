@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\mayur\eclipse-workspace\TestNG_selenium\src\main\java\TestNG\Demo1.java"/>
+			<item value="C:\Users\mayur\eclipse-workspace\RestAssuredTutorial\src\main\java\RestAssuredTutorial\RestAssuredTutorial\App.java"/>
+			<item value="C:\Users\mayur\eclipse-workspace\BDDFramework"/>
+			<item value="C:\Users\mayur\eclipse-workspace\RestAssured\src\main\java\RestAssuredTutorial\Demo2.java"/>
+			<item value="C:\Users\mayur\eclipse-workspace\APIBDDFrameworkfail1\src\test\java\TestRunner\Runnerclass.java"/>
+			<item value="C:\Users\mayur\eclipse-workspace\JavaTutorial"/>
+			<item value="C:\Users\mayur\eclipse-workspace\BDDFramework\src\test\java\FeatureFiles\Cogmento.feature"/>
+			<item value="C:\Users\mayur\eclipse-workspace\FinalUIFramework\src\test\java"/>
+			<item value="C:\Users\mayur\eclipse-workspace\FinalUIFramework\pom.xml"/>
+			<item value="C:\Users\mayur\eclipse-workspace\FinalUIFramework"/>
+			<item value="C:\Users\mayur\eclipse-workspace\cucumbertutorial1\src\test\java\featureTutorial\demo1.java"/>
+			<item value="C:\Users\mayur\eclipse-workspace\orangehrminheritance\src\main\java\pagelayer\HomePage.java"/>
+			<item value="C:\Users\mayur\eclipse-workspace\JavaTutorial\src"/>
+			<item value="C:\Users\mayur\eclipse-workspace\selenium_hybridframeworkdigilocker\src\main\java\selenium_hybridframeworkdigilocker\selenium_hybridframeworkdigilocker"/>
+			<item value="C:\Users\mayur\eclipse-workspace\selenium_oopsinheritancehybridframework\src\main\java\utilitylayer\UtilsClass.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="BDD_Cucumber_Framework_SeleniumWithJava.BDD_Cucumber_Framework_SeleniumWithJava"/>
+			<item value="RestAssuredWithJava.RestAssuredWithJava"/>
+			<item value="TestNgPractice.TestNgPractice"/>
+			<item value="SeleniumPractice1.SeleniumPractice1"/>
+			<item value="DataDrivenFrameworkUsingSeleniumTestNg.DataDrivenFrameworkUsingSeleniumTestNg"/>
+		</list>
+		<list key="groupId">
+			<item value="BDD_Cucumber_Framework_SeleniumWithJava"/>
+			<item value="RestAssuredWithJava"/>
+			<item value="TestNgPractice"/>
+			<item value="SeleniumPractice1"/>
+			<item value="DataDrivenFrameworkUsingSeleniumTestNg"/>
+		</list>
+		<list key="artifactId">
+			<item value="BDD_Cucumber_Framework_SeleniumWithJava"/>
+			<item value="RestAssuredWithJava"/>
+			<item value="TestNgPractice"/>
+			<item value="SeleniumPractice1"/>
+			<item value="DataDrivenFrameworkUsingSeleniumTestNg"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\mayur\Downloads\demo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

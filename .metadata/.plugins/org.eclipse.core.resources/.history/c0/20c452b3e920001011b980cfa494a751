@@ -1,0 +1,11 @@
+package Practice;
+
+public class Demo5 {
+
+	public static void main(String[] args) {
+String a = "Selenium";
+boolean b = a.startsWith("Se");
+System.out.println(b);
+	}
+
+}

@@ -1,0 +1,15 @@
+package Practice;
+
+public class callByValueForPremitives {
+
+	public static void main(String[] args) {
+int a = 10;
+modify(a);
+System.out.println(a);
+
+}
+static void modify(int x) {
+	x = 20;
+	System.out.println(x);
+}
+}

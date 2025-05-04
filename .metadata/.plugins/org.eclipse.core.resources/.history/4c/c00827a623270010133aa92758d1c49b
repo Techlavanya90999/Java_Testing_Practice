@@ -1,0 +1,34 @@
+package StepDefination;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class OrangeHrm {
+static WebDriver driver;
+		@Given("User should be on login page")
+		public void user_should_be_on_login_page() {
+		    driver = new ChromeDriver();
+		    driver.manage().window().maximize();
+		    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		    driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
+		    driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		}
+
+		@When("User enter valid credentials")
+		public void user_enter_valid_credentials() {
+		    
+		}
+
+		@Then("User validate homeapge title")
+		public void user_validate_homeapge_title() {
+		    
+		}
+	}
+
+}

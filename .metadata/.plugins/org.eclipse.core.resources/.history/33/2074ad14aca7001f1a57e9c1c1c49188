@@ -1,0 +1,80 @@
+package Tutorial2;
+
+import java.util.ArrayList;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class class16 {
+
+	public static void main(String[] args) {
+//open Chrome Driver
+		WebDriver driver = new ChromeDriver();
+		
+		//open url
+		driver.get("https://prafpawar11.github.io/multiplewindows.html");
+		
+		//maximize the url
+		driver.manage().window().maximize();
+		
+		//capture current window id no. //window id it return combination of character and integer
+		String ParentId = driver.getWindowHandle();
+		System.out.println(ParentId);
+		
+		//find and enter value in first name text box
+		WebElement firstname = driver.findElement(By.name("fname"));
+		firstname.sendKeys("Ram");
+		
+		//find and click on Soucedemo link
+		WebElement saucedemolink = driver.findElement(By.xpath("//a[text()='SauceDemo Link']"));
+		saucedemolink.click();
+		
+		//capture all window id no.
+		Set<String> setWindowId = driver.getWindowHandles();
+		
+		//create object of ArrayList<String> and convert Set<String> into
+		// ArrayList<String> by passing Set<String> object name in ArrayList<String>
+		// constructor
+		ArrayList<String> arrayListWindowId = new ArrayList<String>(setWindowId);
+		
+		//capture saucewindoe id no.
+		String sauceWindowID = arrayListWindowId.get(1);
+		
+		//switch to focus to saucewindow application
+		driver.switchTo().window(sauceWindowID);
+		
+		//find and enter element in username text box
+		WebElement saucedemousername = driver.findElement(By.name("user-name"));
+		saucedemousername.sendKeys("standard_user");
+		
+		//find and eneter element in password textbox
+		WebElement saucedemopassword = driver.findElement(By.name("password"));
+		saucedemopassword.sendKeys("secret_sauce");
+		
+		//find and click on login button
+		WebElement saucedemologinbutton = driver.findElement(By.name("login-button"));
+		saucedemologinbutton.click();
+		
+		//find fiterout element and click on it
+		WebElement filter = driver.findElement(By.xpath("//select[@class='product_sort_container']"));
+		filter.click();
+		
+		//find product hight to low price and click
+		WebElement highttolowpriceproduct = driver.findElement(By.xpath("//option[@value='hilo']"));
+		highttolowpriceproduct.click();
+		
+		//find products and click on it
+		WebElement product1 = driver.findElement(By.name("add-to-cart-sauce-labs-backpack"));
+		product1.click();
+		
+		//find products and click on it
+				WebElement product2 = driver.findElement(By.name("add-to-cart-sauce-labs-fleece-jacket"));
+				product2.click();
+		
+				
+	}
+
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="EGit.KnownHosts">
+		<item value="bitbucket.org"/>
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/Lavanya1212-git/BDDFramework.git"/>
+		<item value="https://github.com/Lavanya1212-git/BDD_Cucumber_Framework_SeleniumWithJava.git"/>
+	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="Lavanya1212-git&lt;devanpalli.lavanya@gmail.com&gt;"/>
+		<item value="Lavanya1212-git &lt;devanpalli.lavanya@gmail.com&gt;"/>
+		<item value="Techlavanya90999 &lt;tech.lavanyad@gmail.com&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="Lavanya1212-git&lt;devanpalli.lavanya@gmail.com&gt;"/>
+		<item value="Lavanya1212-git &lt;devanpalli.lavanya@gmail.com&gt;"/>
+		<item value="Techlavanya90999 &lt;tech.lavanyad@gmail.com&gt;"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+	</section>
+</section>

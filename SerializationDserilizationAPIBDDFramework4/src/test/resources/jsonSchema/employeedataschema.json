@@ -1,0 +1,225 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "employees": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "email"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "email"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "email"
+          ]
+        }
+      ]
+    },
+    "menus": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "menu": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string"
+                },
+                "popup": {
+                  "type": "object",
+                  "properties": {
+                    "menuitem": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "value": {
+                              "type": "string"
+                            },
+                            "onclick": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "value",
+                            "onclick"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "menuitem"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "value",
+                "popup"
+              ]
+            }
+          },
+          "required": [
+            "menu"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "menu": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string"
+                },
+                "popup": {
+                  "type": "object",
+                  "properties": {
+                    "menuitem": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "value": {
+                              "type": "string"
+                            },
+                            "onclick": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "value",
+                            "onclick"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "menuitem"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "value",
+                "popup"
+              ]
+            }
+          },
+          "required": [
+            "menu"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "menu": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string"
+                },
+                "popup": {
+                  "type": "object",
+                  "properties": {
+                    "menuitem": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "value": {
+                              "type": "string"
+                            },
+                            "onclick": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "value",
+                            "onclick"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "menuitem"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "value",
+                "popup"
+              ]
+            }
+          },
+          "required": [
+            "menu"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "employees",
+    "menus"
+  ]
+}

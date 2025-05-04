@@ -1,0 +1,27 @@
+package Practice;
+public class Demo2 {
+    public static void main(String[] args) {
+        int age = 25; // You can change this to test different ages
+
+        if (age >= 1 && age <= 11) 
+        {
+            System.out.println("child");
+        } 
+        else if (age >= 12 && age <= 17) 
+        {
+            System.out.println("teen");
+        } 
+        else if (age >= 18 && age <= 64) 
+        {
+            System.out.println("adult");
+        } 
+        else if (age > 64) 
+        {
+            System.out.println("senior");
+        } 
+        else 
+        {
+            System.out.println("invalid age");
+        }
+    }
+}

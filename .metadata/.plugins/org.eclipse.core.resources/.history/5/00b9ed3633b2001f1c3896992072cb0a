@@ -1,0 +1,18 @@
+package fullassignment;
+
+import io.restassured.RestAssured;
+
+public class putassignment8 {
+
+	public static void main(String[] args) {
+//configure base uri in rest assured 
+		RestAssured.baseURI = "http://localhost:1212/Employee";
+
+//get requestspecification interface  object
+		RequestSpecification abc = RestAssured.given();
+		
+//use header method from requestspecification interface object
+		
+	}
+
+}

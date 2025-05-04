@@ -1,0 +1,66 @@
+{
+	"createemployee" :
+	{
+		{
+		    
+		    "employees": [
+		        {
+		            "name": "Smita",
+		            "email": "smita@gmail.com"
+		        },
+		        {
+		            "name": "Mohini",
+		            "email": "mohini@gmail.com"
+		        },
+		        {
+		            "name": "Jayshri",
+		            "email": "jayshri@gmail.com"
+		        }
+		    ],
+		    "menus": [
+		        {
+		            "menu": {
+		                "id": "file1",
+		                "value": "File1",
+		                "popup": {
+		                    "menuitem": [
+		                        {
+		                            "value": "Save",
+		                            "onclick": "SaveDoc()"
+		                        }
+		                    ]
+		                }
+		            }
+		        },
+		        {
+		            "menu": {
+		                "id": "file2",
+		                "value": "File2",
+		                "popup": {
+		                    "menuitem": [
+		                        {
+		                            "value": "New",
+		                            "onclick": "CreateDoc()"
+		                        }
+		                    ]
+		                }
+		            }
+		        },
+		        {
+		            "menu": {
+		                "id": "file3",
+		                "value": "File3",
+		                "popup": {
+		                    "menuitem": [
+		                        {
+		                            "value": "Save",
+		                            "onclick": "SaveDoc()"
+		                        }
+		                    ]
+		                }
+		            }
+		        }
+		    ]
+		}
+	}
+}
