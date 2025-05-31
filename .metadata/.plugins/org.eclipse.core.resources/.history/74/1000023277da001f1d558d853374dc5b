@@ -1,7 +1,0 @@
-Feature: test Orange HRM application
-
-  Scenario: validate login functionality
-    Given user is on login page
-    When user enter valid username and password
-      | Admin | admin123 |
-    Then user click on login button

@@ -1,8 +1,0 @@
-Feature: 
-Scenario: validate login functionality
-
-Given User should be on login page
-
-When User enter valid credentials
-
-Then User validate homeapge title
